@@ -15,6 +15,8 @@ struct MovieCard: View {
             
             ScrollView {
                 VStack {
+                    Image(movie.posterName).resizable()
+                    
                     Text(movie.name)
                         .font(.system(size: 40))
                         .bold()
