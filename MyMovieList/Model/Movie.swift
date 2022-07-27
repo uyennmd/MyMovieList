@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct Movie: Identifiable, Codable {
+    var id: Int
+    var name: String
+    var year: String
+    var ep: Int
+}
