@@ -11,8 +11,9 @@ import SwiftUI
 struct Movie: Identifiable, Codable {
     var id: Int
     var name: String
+    var language: String
     var year: String
-    var ep: Int
+    var ep: String
     var posterName: String
     var poster: Image {
         Image(posterName)

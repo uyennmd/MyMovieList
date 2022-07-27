@@ -22,7 +22,7 @@ struct MovieCard: View {
                         .bold()
                     
                     Text(movie.year)
-                    Text(String(movie.ep))
+                    Text(movie.ep)
                         
                     
                 }
