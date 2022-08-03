@@ -1,0 +1,262 @@
+[
+    {
+        "id": 1,
+        "name": "Extraordinary Attorney Woo",
+        "language": "Korean",
+        "year": "2022",
+        "ep": 16,
+        "posterName": "extraordinary-attorney-woo"
+    },
+    {
+        "id": 2,
+        "name": "Eternal Love",
+        "language": "Chinese",
+        "year": "2017",
+        "ep": 58,
+        "posterName": "eternal-love"
+    },
+    {
+        "id": 3,
+        "name": "Crash Landing on You",
+        "language": "Korean",
+        "year": "2017",
+        "ep": "58",
+        "posterName": "crash-landing-on-you"
+    },
+    
+    {
+        "id": 4,
+        "name": "Spy x Family",
+        "language": "Japanese",
+        "year": "2017",
+        "ep": "58",
+        "posterName": "spy-x-family"
+    },
+    
+    {
+        "id": 5,
+        "name": "All Of Us Are Dead",
+        "language": "Korean",
+        "year": "2022",
+        "ep": "12",
+        "posterName": "all-of-us-are-dead"
+    },
+    
+    {
+        "id": 6,
+        "name": "Horimiya",
+        "language": "Japanese",
+        "year": "2021",
+        "ep": "13",
+        "posterName": "horimiya"
+    },
+    
+    {
+        "id": 7,
+        "name": "Hospital Playlist",
+        "language": "Korean",
+        "year": "2021",
+        "ep": "24",
+        "posterName": "hospital-playlist"
+    },
+    
+    {
+        "id": 8,
+        "name": "Business Proposal",
+        "language": "Korean",
+        "year": "2022",
+        "ep": "12",
+        "posterName": "business-proposal"
+    },
+    
+    {
+        "id": 9,
+        "name": "It's Okay To Not Be Okay",
+        "language": "Korean",
+        "year": "2020",
+        "ep": "16",
+        "posterName": "its-okay-to-not-be-okay"
+    },
+    
+    {
+        "id": 10,
+        "name": "Hometown Cha-Cha-Cha",
+        "language": "Korean",
+        "year": "2021",
+        "ep": "16",
+        "posterName": "hometown-cha-cha-cha"
+    },
+    
+    {
+        "id": 11,
+        "name": "Squid Game",
+        "language": "Korean",
+        "year": "2021",
+        "ep": "9",
+        "posterName": "squid-game"
+    },
+    
+    {
+        "id": 12,
+        "name": "Itaewon Class",
+        "language": "Korean",
+        "year": "2020",
+        "ep": "16",
+        "posterName": "itaewon-class"
+    },
+    
+    {
+        "id": 13,
+        "name": "Kingdom",
+        "language": "Korean",
+        "year": "2020",
+        "ep": "12",
+        "posterName": "kingdom"
+    },
+    
+    {
+        "id": 14,
+        "name": "Descendants Of The Sun",
+        "language": "Korean",
+        "year": "2016",
+        "ep": "16",
+        "posterName": "descendants-of-the-sun"
+    },
+    
+    {
+        "id": 15,
+        "name": "The Witcher",
+        "language": "America",
+        "year": "2021",
+        "ep": "16",
+        "posterName": "the-witcher"
+    },
+    
+    {
+        "id": 16,
+        "name": "Ghost Doctor",
+        "language": "Korean",
+        "year": "2022",
+        "ep": "16",
+        "posterName": "ghost-doctor"
+    },
+    
+    {
+        "id": 17,
+        "name": "Love, Death & Robots",
+        "language": "English",
+        "year": "2022",
+        "ep": "35",
+        "posterName": "love-death-robots"
+    },
+    
+    {
+        "id": 18,
+        "name": "Doctors",
+        "language": "Korean",
+        "year": "2016",
+        "ep": "20",
+        "posterName": "doctors"
+    },
+
+    {
+        "id": 19,
+        "name": "Dr. Romantic",
+        "language": "Korean",
+        "year": "2020",
+        "ep": "32",
+        "posterName": "dr-romantic"
+    },
+    
+    {
+        "id": 20,
+        "name": "Doctor John",
+        "language": "Korean",
+        "year": "2019",
+        "ep": "16",
+        "posterName": "doctor-john"
+    },
+    
+    {
+        "id": 21,
+        "name": "18 Again",
+        "language": "Korean",
+        "year": "2020",
+        "ep": "16",
+        "posterName": "18-again"
+    },
+
+    {
+        "id": 22,
+        "name": "Prison Playbook",
+        "language": "Korean",
+        "year": "2017",
+        "ep": "16",
+        "posterName": "prison-playbook"
+    },
+    
+    {
+        "id": 23,
+        "name": "You Are My Glory",
+        "language": "Chinese",
+        "year": "2021",
+        "ep": "32",
+        "posterName": "you-are-my-glory"
+    },
+    
+    {
+        "id": 24,
+        "name": "One And Only",
+        "language": "Chinese",
+        "year": "2021",
+        "ep": "24",
+        "posterName": "one-and-only"
+    },
+    
+    {
+        "id": 25,
+        "name": "Forever And Ever",
+        "language": "Chinese",
+        "year": "2021",
+        "ep": "30",
+        "posterName": "forever-and-ever"
+    },
+    
+    {
+        "id": 26,
+        "name": "Go Go Squid",
+        "language": "Chinese",
+        "year": "2019",
+        "ep": "41",
+        "posterName": "go-go-squid"
+    },
+    
+    {
+        "id": 27,
+        "name": "Moonlight",
+        "language": "Chinese",
+        "year": "2021",
+        "ep": "36",
+        "posterName": "moonlight"
+    },
+    
+    {
+        "id": 28,
+        "name": "The Seven Deadly Sins",
+        "language": "Japanese",
+        "year": "2021",
+        "ep": "120",
+        "posterName": "the-seven-deadly-sins"
+    },
+    
+    {
+        "id": 29,
+        "name": "One Piece",
+        "language": "Japanese",
+        "year": "2022",
+        "ep": "1026",
+        "posterName": "one-piece"
+    },
+    
+    
+]
