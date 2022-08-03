@@ -23,3 +23,10 @@ struct MovieList: View {
         }
     }
 }
+
+struct MovieList_Previews: PreviewProvider {
+    static var previews: some View {
+        MovieList()
+    }
+}
+

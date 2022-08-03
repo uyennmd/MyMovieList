@@ -4,7 +4,8 @@
         "name": "Extraordinary Attorney Woo",
         "language": "Korean",
         "year": "2022",
-        "ep": 16,
+        "ep": "16",
+        
         "posterName": "extraordinary-attorney-woo"
     },
     {
@@ -12,7 +13,7 @@
         "name": "Eternal Love",
         "language": "Chinese",
         "year": "2017",
-        "ep": 58,
+        "ep": "58",
         "posterName": "eternal-love"
     },
     {
