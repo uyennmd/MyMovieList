@@ -24,4 +24,9 @@ struct Movie: Identifiable, Codable {
     var poster: Image {
         Image(posterName)
     }
+    var listPhoto: String
+    var photo: Image {
+        Image(listPhoto)
+    }
+    var content: String
 }

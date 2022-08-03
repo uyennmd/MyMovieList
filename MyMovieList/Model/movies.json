@@ -5,8 +5,9 @@
         "language": "Korean",
         "year": "2022",
         "ep": "16",
-        
-        "posterName": "extraordinary-attorney-woo"
+        "posterName": "extraordinary-attorney-woo",
+        "listPhoto": "extraordinary-attorney-woo-l",
+        "content": "Woo Young-Woo (Park Eun-Bin) is extremely smart and she also has autism spectrum disorder. She never forgets what she sees, but she lacks in social skills and empathy. Woo Young-Woo begins to work as a trainee lawyer at a large law firm. While working there, she faces prejudice and irrationality against her, but she solves cases with her own unique perspective and grows as a lawyer."
     },
     {
         "id": 2,
@@ -14,7 +15,9 @@
         "language": "Chinese",
         "year": "2017",
         "ep": "58",
-        "posterName": "eternal-love"
+        "posterName": "eternal-love",
+        "listPhoto": "eternal-love-l",
+        "content": ""
     },
     {
         "id": 3,
@@ -22,7 +25,9 @@
         "language": "Korean",
         "year": "2017",
         "ep": "58",
-        "posterName": "crash-landing-on-you"
+        "posterName": "crash-landing-on-you",
+        "listPhoto": "crash-landing-on-you-l",
+        "content": ""
     },
     
     {
@@ -31,7 +36,9 @@
         "language": "Japanese",
         "year": "2017",
         "ep": "58",
-        "posterName": "spy-x-family"
+        "posterName": "spy-x-family",
+        "listPhoto": "spy-x-family-l",
+        "content": ""
     },
     
     {
@@ -40,7 +47,9 @@
         "language": "Korean",
         "year": "2022",
         "ep": "12",
-        "posterName": "all-of-us-are-dead"
+        "posterName": "all-of-us-are-dead",
+        "listPhoto": "all-of-us-are-dead-l",
+        "content": ""
     },
     
     {
@@ -49,7 +58,9 @@
         "language": "Japanese",
         "year": "2021",
         "ep": "13",
-        "posterName": "horimiya"
+        "posterName": "horimiya",
+        "listPhoto": "horimiya-l",
+        "content": ""
     },
     
     {
@@ -58,7 +69,9 @@
         "language": "Korean",
         "year": "2021",
         "ep": "24",
-        "posterName": "hospital-playlist"
+        "posterName": "hospital-playlist",
+        "listPhoto": "hospital-playlist-l",
+        "content": ""
     },
     
     {
@@ -67,7 +80,9 @@
         "language": "Korean",
         "year": "2022",
         "ep": "12",
-        "posterName": "business-proposal"
+        "posterName": "business-proposal",
+        "listPhoto": "business-proposal-l",
+        "content": ""
     },
     
     {
@@ -76,7 +91,9 @@
         "language": "Korean",
         "year": "2020",
         "ep": "16",
-        "posterName": "its-okay-to-not-be-okay"
+        "posterName": "its-okay-to-not-be-okay",
+        "listPhoto": "its-okay-to-not-be-okay-l",
+        "content": ""
     },
     
     {
@@ -85,7 +102,9 @@
         "language": "Korean",
         "year": "2021",
         "ep": "16",
-        "posterName": "hometown-cha-cha-cha"
+        "posterName": "hometown-cha-cha-cha",
+        "listPhoto": "hometown-cha-cha-cha-l",
+        "content": ""
     },
     
     {
@@ -94,7 +113,9 @@
         "language": "Korean",
         "year": "2021",
         "ep": "9",
-        "posterName": "squid-game"
+        "posterName": "squid-game",
+        "listPhoto": "squid-game-l",
+        "content": ""
     },
     
     {
@@ -103,7 +124,9 @@
         "language": "Korean",
         "year": "2020",
         "ep": "16",
-        "posterName": "itaewon-class"
+        "posterName": "itaewon-class",
+        "listPhoto": "itaewon-class-l",
+        "content": ""
     },
     
     {
@@ -112,7 +135,9 @@
         "language": "Korean",
         "year": "2020",
         "ep": "12",
-        "posterName": "kingdom"
+        "posterName": "kingdom",
+        "listPhoto": "kingdom-l",
+        "content": ""
     },
     
     {
@@ -121,7 +146,9 @@
         "language": "Korean",
         "year": "2016",
         "ep": "16",
-        "posterName": "descendants-of-the-sun"
+        "posterName": "descendants-of-the-sun",
+        "listPhoto": "descendants-of-the-sun-l",
+        "content": ""
     },
     
     {
@@ -130,7 +157,9 @@
         "language": "America",
         "year": "2021",
         "ep": "16",
-        "posterName": "the-witcher"
+        "posterName": "the-witcher",
+        "listPhoto": "the-witcher-l",
+        "content": ""
     },
     
     {
@@ -139,7 +168,9 @@
         "language": "Korean",
         "year": "2022",
         "ep": "16",
-        "posterName": "ghost-doctor"
+        "posterName": "ghost-doctor",
+        "listPhoto": "ghost-doctor-l",
+        "content": ""
     },
     
     {
@@ -148,7 +179,9 @@
         "language": "English",
         "year": "2022",
         "ep": "35",
-        "posterName": "love-death-robots"
+        "posterName": "love-death-robots",
+        "listPhoto": "love-death-robots-l",
+        "content": ""
     },
     
     {
@@ -157,7 +190,9 @@
         "language": "Korean",
         "year": "2016",
         "ep": "20",
-        "posterName": "doctors"
+        "posterName": "doctors",
+        "listPhoto": "doctors-l",
+        "content": ""
     },
 
     {
@@ -166,7 +201,9 @@
         "language": "Korean",
         "year": "2020",
         "ep": "32",
-        "posterName": "dr-romantic"
+        "posterName": "dr-romantic",
+        "listPhoto": "dr-romantic-l",
+        "content": ""
     },
     
     {
@@ -175,7 +212,9 @@
         "language": "Korean",
         "year": "2019",
         "ep": "16",
-        "posterName": "doctor-john"
+        "posterName": "doctor-john",
+        "listPhoto": "doctor-john-l",
+        "content": ""
     },
     
     {
@@ -184,7 +223,9 @@
         "language": "Korean",
         "year": "2020",
         "ep": "16",
-        "posterName": "18-again"
+        "posterName": "18-again",
+        "listPhoto": "18-again-l",
+        "content": ""
     },
 
     {
@@ -193,7 +234,9 @@
         "language": "Korean",
         "year": "2017",
         "ep": "16",
-        "posterName": "prison-playbook"
+        "posterName": "prison-playbook",
+        "listPhoto": "prison-playbook-l",
+        "content": ""
     },
     
     {
@@ -202,7 +245,9 @@
         "language": "Chinese",
         "year": "2021",
         "ep": "32",
-        "posterName": "you-are-my-glory"
+        "posterName": "you-are-my-glory",
+        "listPhoto": "you-are-my-glory-l",
+        "content": ""
     },
     
     {
@@ -211,7 +256,9 @@
         "language": "Chinese",
         "year": "2021",
         "ep": "24",
-        "posterName": "one-and-only"
+        "posterName": "one-and-only",
+        "listPhoto": "one-and-only-l",
+        "content": ""
     },
     
     {
@@ -220,7 +267,9 @@
         "language": "Chinese",
         "year": "2021",
         "ep": "30",
-        "posterName": "forever-and-ever"
+        "posterName": "forever-and-ever",
+        "listPhoto": "forever-and-ever-l",
+        "content": ""
     },
     
     {
@@ -229,7 +278,9 @@
         "language": "Chinese",
         "year": "2019",
         "ep": "41",
-        "posterName": "go-go-squid"
+        "posterName": "go-go-squid",
+        "listPhoto": "go-go-squid-l",
+        "content": ""
     },
     
     {
@@ -238,7 +289,9 @@
         "language": "Chinese",
         "year": "2021",
         "ep": "36",
-        "posterName": "moonlight"
+        "posterName": "moonlight",
+        "listPhoto": "moonlight-l",
+        "content": ""
     },
     
     {
@@ -247,7 +300,9 @@
         "language": "Japanese",
         "year": "2021",
         "ep": "120",
-        "posterName": "the-seven-deadly-sins"
+        "posterName": "the-seven-deadly-sins",
+        "listPhoto": "the-seven-deadly-sins-l",
+        "content": ""
     },
     
     {
@@ -256,7 +311,9 @@
         "language": "Japanese",
         "year": "2022",
         "ep": "1026",
-        "posterName": "one-piece"
+        "posterName": "one-piece",
+        "listPhoto": "one-piece-l",
+        "content": ""
     },
     
     

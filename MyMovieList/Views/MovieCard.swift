@@ -22,15 +22,22 @@ struct MovieCard: View {
                 VStack {
                     Image(movie.posterName)
                         .resizable()
-                        .frame(height: 250)
+                        .aspectRatio(contentMode: .fill)
                         .edgesIgnoringSafeArea(.all)
                     Text(movie.name)
                         .font(.system(size: 40))
                         .bold()
                         .frame(width: 400)
-                    Text("Year: " + movie.year)
-                        .padding()
-                    Text("Episode: " + movie.ep)
+                    HStack {
+                        Spacer()
+                        Text("Year: " + movie.year)
+                            .padding()
+                        Spacer()
+                        Text("Episode: " + movie.ep)
+                            .padding()
+                        Spacer()
+                    }
+                    Text(movie.content)
                 }
             }
         }
