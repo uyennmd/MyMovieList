@@ -23,21 +23,28 @@ struct MovieCard: View {
                     Image(movie.posterName)
                         .resizable()
                         .aspectRatio(contentMode: .fill)
-                        .edgesIgnoringSafeArea(.all)
                     Text(movie.name)
                         .font(.system(size: 40))
                         .bold()
-                        .frame(width: 400)
-                    HStack {
-                        Spacer()
-                        Text("Year: " + movie.year)
-                            .padding()
-                        Spacer()
-                        Text("Episode: " + movie.ep)
-                            .padding()
-                        Spacer()
-                    }
+                    VStack {
+                        HStack {
+                            Text("Year: " + movie.year)
+                            Spacer()
+                            Text("Episode: " + movie.ep)
+                        }
+                        
+                        HStack {
+                            Text("Language: " + movie.language)
+                                .lineSpacing(20)
+                            Spacer()
+                        }
+
+                    }.aspectRatio(contentMode: .fill)
+                        .frame(width: 350, height: 60, alignment: .top)
+                        
+                    
                     Text(movie.content)
+                        .frame(width: 350)
                 }
             }
         }
