@@ -12,19 +12,33 @@
 
 import Foundation
 import SwiftUI
-
+let colorNavAppear = UINavigationBarAppearance()
 struct MovieList: View {
+    init() {
+        colorNavAppear.configureWithOpaqueBackground()
+        colorNavAppear.backgroundColor = ColorConstant.movieBlue
+        UIScrollView.appearance().backgroundColor = ColorConstant.moviePink
+        UINavigationBar.appearance().standardAppearance =  colorNavAppear
+        UINavigationBar.appearance().scrollEdgeAppearance =  colorNavAppear
+    }
     var body: some View {
         NavigationView {
             List(movies) {
-                movie in
-                NavigationLink {
+                movie in NavigationLink {
                     MovieCard(movie: movie)
                 } label: {
                     MovieRow(movie: movie)
                 }
                 .navigationTitle("My Movie List")
             }
+            .toolbar {
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    NavigationLink(destination: CreateView()) {
+                        Text("Create")
+                    }
+                }
+            }
+            
         }
     }
 }

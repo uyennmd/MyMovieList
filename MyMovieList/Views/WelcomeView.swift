@@ -5,21 +5,21 @@
   Assessment: Assignment 1
   Author: Nguyen Minh Duy Uyen
   ID: s3819342
-  Created  date: 25/07/2022
+  Created  date: 03/08/2022
   Last modified: 03/08/2022
-  Acknowledgement: Acknowledge the resources that you use here. 
+  Acknowledgement: Acknowledge the resources that you use here.
 */
-
 import SwiftUI
 
-struct ContentView: View {
+
+struct WelcomeView: View {
     var body: some View {
-        WelcomeView()
+        MovieList()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct WelcomeView_Previews: PreviewProvider {
     static var previews: some View {
-        WelcomeView()
+        MovieList()
     }
 }
