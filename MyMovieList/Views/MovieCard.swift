@@ -26,6 +26,7 @@ struct MovieCard: View {
                     Text(movie.name)
                         .font(.system(size: 40))
                         .bold()
+                        .multilineTextAlignment(.center)
                     VStack {
                         HStack {
                             Text("Year: " + movie.year)

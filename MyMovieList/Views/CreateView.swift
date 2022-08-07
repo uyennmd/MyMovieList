@@ -12,7 +12,9 @@
 
 import SwiftUI
 
-
+func create(name:String, language:String, year: String, ep: String, content: String) {
+    print(array.map({$0.content}))
+}
 
 struct CreateView: View {
     @State var name: String = ""
@@ -57,7 +59,12 @@ struct CreateView: View {
                     TextField("Enter content:", text: $content)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                 }
-                CreateButton()
+                Button (action: {
+                    create(name: name, language: language, year: year, ep: ep, content: content)
+                }) {
+                    CreateButton()
+                }
+                
             
             } .aspectRatio(contentMode: .fit)
                 .frame(width: 380)

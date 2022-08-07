@@ -33,15 +33,3 @@ func decodeJsonFromJsonFile(jsonFileName: String) -> [Movie] {
     }
     return [ ] as [Movie]
 }
-
-func writeJSON(movies: [Movie]) {
-    do {
-        let fileURL = try FileManager.default.url(for: .desktopDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-            .appendingPathComponent("movies.json")
-
-        let encoder = JSONEncoder()
-        try encoder.encode(array).write(to: fileURL)
-    } catch {
-        print(error.localizedDescription)
-    }
-}

@@ -30,17 +30,3 @@ struct Movie: Identifiable, Codable {
     }
     var content: String
 }
-var array: [Movie] = {
-    do {
-        let fileURL = try FileManager.default.url(for: .desktopDirectory, in: .userDomainMask, appropriateFor: nil, create: true)
-            .appendingPathComponent("movies.json")
-
-        let data = try Data(contentsOf: fileURL)
-        let decoder = JSONDecoder()
-        let items = try decoder.decode([Movie].self, from: data)
-        return items
-    } catch {
-        print(error.localizedDescription)
-        return []
-    }
-}()

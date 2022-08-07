@@ -10,9 +10,12 @@
   Acknowledgement: Acknowledge the resources that you use here. 
 */
 
+
+
 import Foundation
 import SwiftUI
 let colorNavAppear = UINavigationBarAppearance()
+
 struct MovieList: View {
     init() {
         colorNavAppear.configureWithOpaqueBackground()
@@ -21,26 +24,40 @@ struct MovieList: View {
         UINavigationBar.appearance().standardAppearance =  colorNavAppear
         UINavigationBar.appearance().scrollEdgeAppearance =  colorNavAppear
     }
+    @State var Movies = movies
+    @State private var searchText = ""
     var body: some View {
         NavigationView {
-            List(movies) {
-                movie in NavigationLink {
-                    MovieCard(movie: movie)
-                } label: {
-                    MovieRow(movie: movie)
-                }
-                .navigationTitle("My Movie List")
-            }
-            .toolbar {
-                ToolbarItemGroup(placement: .navigationBarTrailing) {
-                    NavigationLink(destination: CreateView()) {
-                        Text("Create")
+            List {
+                ForEach(filteredMovie) { (movie:Movie) in
+                    NavigationLink {
+                        MovieCard(movie: movie)
+                    } label: {
+                        MovieRow(movie: movie)
                     }
                 }
+                .onDelete { offets in
+                    Movies.remove(atOffsets: offets)
+                }
+            }.navigationTitle("My Movie List")
+             .searchable(text: $searchText, prompt: "Search for a movie")
+            .toolbar {
+                EditButton()
             }
-            
         }
     }
+    
+    var filteredMovie: [Movie] {
+        if searchText.isEmpty {
+            return Movies
+        } else {
+            return Movies.filter{
+                $0.name.localizedCaseInsensitiveContains(searchText)
+            }
+        }
+    }
+    
+    
 }
 
 struct MovieList_Previews: PreviewProvider {
