@@ -52,7 +52,10 @@ struct MovieList: View {
             return Movies
         } else {
             return Movies.filter{
-                $0.name.localizedCaseInsensitiveContains(searchText)
+                $0.name.localizedCaseInsensitiveContains(searchText) ||
+                $0.language.localizedCaseInsensitiveContains(searchText) ||
+                $0.year.localizedCaseInsensitiveContains(searchText) ||
+                $0.ep.localizedCaseInsensitiveContains(searchText)
             }
         }
     }
